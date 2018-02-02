@@ -1,0 +1,21 @@
+{
+  "name": "format-phones",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dtgoitia/phone-formatter.git",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "rm -rf ./build && tsc",
+    "test": "mocha ./build/test/Test.js"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^2.2.48",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+  "directories": {
+    "test": "test",
+    "lib": "src"
+  }
+}
